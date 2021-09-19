@@ -1,9 +1,15 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+<div class="flex flex-col justify-between">
+    <!-- <div id="nav" class="">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div> -->
+    <router-view/>
+    <div>
+    <p>Footer</p>
+    </div>
+
+</div>
 </template>
 
 <style>
